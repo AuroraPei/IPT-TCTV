@@ -9,7 +9,7 @@ Pei Liu, Jiangjun Peng, Hailin Wang, Danfeng Hong, Xiangyong Cao
 ## Overall Framework
 ![3DSWSTT_model_00](https://github.com/user-attachments/assets/15f6a927-7bce-4c3b-a1f2-539a75004c80)
 
-Overall framework of the proposed method. (a) The input infrared images. (b) The 3-D sliding window spatial-temporal tensor (3DSWSTT) model. \textit{Step1}: The input images are extended by padding the edges. \textit{Step2}: A series of stereo patch tensors are obtained by sliding a 3-D window from left to right and top to bottom. \textit{Step3}: The spatial-temporal patch tensor $\mathcal{O}$ is constructed by collecting the centered patch tensor and its 3 × 3 adjacent patch tensors as neighborhoods. (c) The TCTV model. The constructed patch tensor $\mathcal{O}$ is separated into three modules including the background $\mathcal{B}$, the target $\mathcal{T}$ and the noise $\mathcal{N}$ patch tensors by TCTV model and solved iteratively by ADMM approach, detailed in Algorithm 1. (d) The detected background and target images are produced by tensor reconstructions.
+Illustration. (a) The input infrared images. (b) The 3-D sliding window spatial-temporal tensor (3DSWSTT) model. \textit{Step1}: The input images are extended by padding the edges. \textit{Step2}: A series of stereo patch tensors are obtained by sliding a 3-D window from left to right and top to bottom. \textit{Step3}: The spatial-temporal patch tensor $\mathcal{O}$ is constructed by collecting the centered patch tensor and its 3 × 3 adjacent patch tensors as neighborhoods. (c) The TCTV model. The constructed patch tensor $\mathcal{O}$ is separated into three modules including the background $\mathcal{B}$, the target $\mathcal{T}$ and the noise $\mathcal{N}$ patch tensors by TCTV model and solved iteratively by ADMM approach, detailed in Algorithm 1. (d) The detected background and target images are produced by tensor reconstructions.
 
 ## Datasets
 [_**ATR**_](http://www.sciencedb.cn/dataSet/handle/902)
@@ -29,9 +29,26 @@ The MSISTD dataset, which was publicly released in 2022, is a multiscene and sin
 <img src="https://github.com/user-attachments/assets/fca148f6-17c5-4bbf-bb4a-f4d8b2b0fad0" width="19.5%"/>
 <img src="https://github.com/user-attachments/assets/aa2c6eab-4a3a-4bfb-9124-1c9472be72a0" width="19.5%"/>
 
+## Compared Methods
+_**Single-frame methods**_
+
+PSTNN [[Paper]]() [[Code]]() 
+WSLCM [[Paper]]() [[Code]]() 
+NTFRA [[Paper]]() [[Code]]() 
+_**Multiframe methods**_
+
+ECASTT [[Paper]]() [[Code]]() 
+MSLSTIPT [[Paper]]() [[Code]]() 
+ASTTV-NTLA [[Paper]]() [[Code]]() 
+IMNN-LWEC [[Paper]]() [[Code]]() 
+MFSTPT [[Paper]]() [[Code]]() 
 
 
 
+_**Deep learning methods**_
+
+UIU-Net [[Paper]]() [[Code]]() 
+DNA-Net [[Paper]]() [[Code]]() 
 
 
 
