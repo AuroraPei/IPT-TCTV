@@ -23,3 +23,25 @@ The ATR dataset, which is also known as the ground/air background infrared detec
 
 The MSISTD dataset, which was publicly released in 2022, is a multiscene and single-frame infrared small target dataset. It contains 1,077 images and 1,343 instances, which are 2.4 times and 2.5 times more than those contained in the largest existing real-world SIRST benchmarks, respectively. This dataset extends the scale of the original SIRST dataset from 427 to 1077 with high-quality annotations, which effectively solves the lack of quantity and diversity in infrared small target detection datasets.
 
+<img src="https://github.com/user-attachments/assets/84e91a1e-3bfa-465a-aee4-8f203a60567d" width="19.5%"/>
+<img src="https://github.com/user-attachments/assets/a25ee459-19d9-4606-b7c0-d1dd3b385275" width="19.5%"/>
+<img src="https://github.com/user-attachments/assets/ee2b52ae-0913-4228-a688-48e82b751c0f" width="19.5%"/>
+<img src="https://github.com/user-attachments/assets/fca148f6-17c5-4bbf-bb4a-f4d8b2b0fad0" width="19.5%"/>
+<img src="https://github.com/user-attachments/assets/aa2c6eab-4a3a-4bfb-9124-1c9472be72a0" width="19.5%"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
