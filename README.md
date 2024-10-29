@@ -16,6 +16,9 @@ Overall framework of the proposed method. (a) The input infrared images. (b) The
 
 The ATR dataset, which is also known as the ground/air background infrared detection and tracking dataset, was collected and released publicly by the ATR Key Laboratory of the National University of Defense Technology between 2017 and 2019. The ATR dataset contains 22 image sequences, 16177 frames, 16944 targets, and 30 trajectories. Furthermore, each image sequence corresponds to a label file in which each target is tagged with a label location in the associated image. All images are acquired by using medium-wave (3~5um) infrared imaging equipment in specifically designed experiments, and the resolution of each infrared image is 256×256 pixels.
 
+<img src="https://github.com/user-attachments/assets/91313a45-7c34-4f72-8fcf-4b621bcd96b6" width="19.5%"/> <img src="https://github.com/user-attachments/assets/375ff992-75e0-4f9a-bcce-9f555d837ed1" width="19.5%"/> <img src="https://github.com/user-attachments/assets/03ac221d-4f76-45bd-bd11-e6d66dd35f66" width="19.5%"/> <img src="https://github.com/user-attachments/assets/1efe7da0-1f4f-4aa4-a60d-c2f344654c61" width="19.5%"/> <img src="https://github.com/user-attachments/assets/ea8eb38b-6141-4952-b997-162f10105b16" width="19.5%"/>
+
+
 [_**MSISTD**_](https://github.com/Crescent-Ao/MSISTD)
 
 The MSISTD dataset, which was publicly released in 2022, is a multiscene and single-frame infrared small target dataset. It contains 1,077 images and 1,343 instances, which are 2.4 times and 2.5 times more than those contained in the largest existing real-world SIRST benchmarks, respectively. This dataset extends the scale of the original SIRST dataset from 427 to 1077 with high-quality annotations, which effectively solves the lack of quantity and diversity in infrared small target detection datasets.
