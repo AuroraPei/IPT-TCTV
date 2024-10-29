@@ -35,11 +35,11 @@ PSTNN [[Paper]](https://www.mdpi.com/2072-4292/11/4/382) [[Code]](https://github
 
 WSLCM [[Paper]](https://ieeexplore.ieee.org/abstract/document/9130832) [[Code]](https://github.com/moradisaed/WSLCM) 
 
-NTFRA [[Paper]]() [[Code]]() 
+NTFRA [[Paper]](https://ieeexplore.ieee.org/abstract/document/9394596) [[Code]](https://github.com/Electromagnetism-dog-technology/Infrared-Small-Target-Detection-via-Nonconvex-Tensor-Fibered-Rank-Approximation) 
 
 _**Multiframe methods**_
 
-ECASTT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9279305) [[Code]]() 
+ECASTT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9279305) [[Code]](https://github.com/ELOESZHANG/ECA-STT-for-IR-small-target-detection) 
 
 MSLSTIPT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9203993) [[Code]](https://github.com/yangsunNUDT/MSLSTIPT-V2) 
 
@@ -54,7 +54,7 @@ _**Deep learning methods**_
 
 UIU-Net [[Paper]](https://ieeexplore.ieee.org/document/9989433) [[Code]](https://github.com/danfenghong/IEEE_TIP_UIU-Net) 
 
-DNA-Net [[Paper]](https://ieeexplore.ieee.org/abstract/document/9864119) [[Code]]() 
+DNA-Net [[Paper]](https://ieeexplore.ieee.org/abstract/document/9864119) [[Code]](https://github.com/YeRen123455/Infrared-Small-Target-Detection) 
 
 
 
