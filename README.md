@@ -12,6 +12,9 @@ Pei Liu, [Jiangjun Peng](https://scholar.google.com.hk/citations?user=3crYjMoAAA
 Illustration. (a) The input infrared images. (b) The 3-D sliding window spatial-temporal tensor (3DSWSTT) model. _Step1_: The input images are extended by padding the edges. _Step2_: A series of stereo patch tensors are obtained by sliding a 3-D window from left to right and top to bottom. _Step3_: The spatial-temporal patch tensor $\mathcal{O}$ is constructed by collecting the centered patch tensor and its 3 × 3 adjacent patch tensors as neighborhoods. (c) The TCTV model. The constructed patch tensor $\mathcal{O}$ is separated into three modules including the background $\mathcal{B}$, the target $\mathcal{T}$ and the noise $\mathcal{N}$ patch tensors by TCTV model and solved iteratively by ADMM approach, detailed in Algorithm 1. (d) The detected background and target images are produced by tensor reconstructions.
 
 ## 2. Datasets
+
+The ATR dataset is used to evaluate the performance of compared algorithms. The MSISTD dataset is used to perform the generalization experiment on the two compared DL methods.
+
 [_**ATR**_](http://www.sciencedb.cn/dataSet/handle/902)
 
 The ATR dataset, which is also known as the ground/air background infrared detection and tracking dataset, was collected and released publicly by the ATR Key Laboratory of the National University of Defense Technology between 2017 and 2019. The ATR dataset contains 22 image sequences, 16177 frames, 16944 targets, and 30 trajectories. Furthermore, each image sequence corresponds to a label file in which each target is tagged with a label location in the associated image. All images are acquired by using medium-wave (3~5um) infrared imaging equipment in specifically designed experiments, and the resolution of each infrared image is 256×256 pixels. 
