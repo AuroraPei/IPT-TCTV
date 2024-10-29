@@ -1,2 +1,8 @@
 # **TCTV: Infrared Small Target Detection via Joint Low Rankness and Local Smoothness Prior**  
 Pei Liu, Jiangjun Peng, Hailin Wang, Danfeng Hong, Xiangyong Cao
+
+<hr />
+
+> **Abstract:** *Infrared small target detection is a challenging task in the computer vision field due to factors such as target scale variations and strong clutter. The existing infrared patch tensor (IPT) models achieve good detection performance but still have several limitations, such as inaccurate background modeling results and poor robustness against noise. To alleviate these issues, in this paper, we propose a new IPT model (dubbed as IPT-TCTV) by fully exploiting prior background knowledge. We construct an improved spatial-temporal (STT) model by sliding a 3-D window, which could better preserve the spatial correlation and temporal continuity of multiframe infrared images in the constructed tensor. Specifically, a joint low-rank and local smoothness regularization, i.e., tensor correlated total variation (TCTV), is utilized to characterize the background since the background exhibits not only the low-rank property but also the local smoothness property, without introducing additional trade-off parameters. Furthermore, considering the effect of edge structures, the \textit{l}$_{2,1}$ norm is adopted as a noise constraint to eliminate strong residuals, which can help to extract real targets from the background with more precision. Finally, we design an efficient alternating direction method of multipliers (ADMM) approach to solve the proposed model. Experimental results on some benchmark datasets illustrate that our IPT-TCTV model can achieve better detection performance than other state-of-the-art methods in various real scenes.*
+<hr />
+
