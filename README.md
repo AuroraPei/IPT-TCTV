@@ -32,23 +32,31 @@ The MSISTD dataset, which was publicly released in 2022, is a multiscene and sin
 ## Compared Methods
 _**Single-frame methods**_
 
-PSTNN [[Paper]]() [[Code]]() 
-WSLCM [[Paper]]() [[Code]]() 
+PSTNN [[Paper]](https://www.mdpi.com/2072-4292/11/4/382) [[Code]](https://github.com/Lanneeee/Infrared-Small-Target-Detection-based-on-PSTNN) 
+
+WSLCM [[Paper]](https://ieeexplore.ieee.org/abstract/document/9130832) [[Code]](https://github.com/moradisaed/WSLCM) 
+
 NTFRA [[Paper]]() [[Code]]() 
+
 _**Multiframe methods**_
 
 ECASTT [[Paper]]() [[Code]]() 
-MSLSTIPT [[Paper]]() [[Code]]() 
+
+MSLSTIPT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9203993) [[Code]](https://github.com/yangsunNUDT/MSLSTIPT-V2) 
+
 ASTTV-NTLA [[Paper]]() [[Code]]() 
-IMNN-LWEC [[Paper]]() [[Code]]() 
+
+IMNN-LWEC [[Paper]](https://ieeexplore.ieee.org/abstract/document/9991168) [[Code]](https://github.com/Andro-svg/IMNN-LWEC) 
+
 MFSTPT [[Paper]]() [[Code]]() 
 
 
 
 _**Deep learning methods**_
 
-UIU-Net [[Paper]]() [[Code]]() 
-DNA-Net [[Paper]]() [[Code]]() 
+UIU-Net [[Paper]](https://ieeexplore.ieee.org/document/9989433) [[Code]](https://github.com/danfenghong/IEEE_TIP_UIU-Net) 
+
+DNA-Net [[Paper]]() [[Code]](https://ieeexplore.ieee.org/abstract/document/9864119) 
 
 
 
