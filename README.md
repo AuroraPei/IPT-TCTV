@@ -47,7 +47,7 @@ UIU-Net [[Paper]](https://ieeexplore.ieee.org/document/9989433) [[Code]](https:/
 
 ## 5. Run the code
 
-Get started run main.m
+Get started run ``main.m``
 
 ## 6. Connections
 
