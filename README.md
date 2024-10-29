@@ -10,3 +10,13 @@ Pei Liu, Jiangjun Peng, Hailin Wang, Danfeng Hong, Xiangyong Cao
 ![3DSWSTT_model_00](https://github.com/user-attachments/assets/15f6a927-7bce-4c3b-a1f2-539a75004c80)
 
 Overall framework of the proposed method. (a) The input infrared images. (b) The 3-D sliding window spatial-temporal tensor (3DSWSTT) model. \textit{Step1}: The input images are extended by padding the edges. \textit{Step2}: A series of stereo patch tensors are obtained by sliding a 3-D window from left to right and top to bottom. \textit{Step3}: The spatial-temporal patch tensor $\mathcal{O}$ is constructed by collecting the centered patch tensor and its 3 × 3 adjacent patch tensors as neighborhoods. (c) The TCTV model. The constructed patch tensor $\mathcal{O}$ is separated into three modules including the background $\mathcal{B}$, the target $\mathcal{T}$ and the noise $\mathcal{N}$ patch tensors by TCTV model and solved iteratively by ADMM approach, detailed in Algorithm 1. (d) The detected background and target images are produced by tensor reconstructions.
+
+## Datasets
+[_**ATR**_](http://www.sciencedb.cn/dataSet/handle/902)
+
+The ATR dataset, which is also known as the ground/air background infrared detection and tracking dataset, was collected and released publicly by the ATR Key Laboratory of the National University of Defense Technology between 2017 and 2019. The ATR dataset contains 22 image sequences, 16177 frames, 16944 targets, and 30 trajectories. Furthermore, each image sequence corresponds to a label file in which each target is tagged with a label location in the associated image. All images are acquired by using medium-wave (3~5um) infrared imaging equipment in specifically designed experiments, and the resolution of each infrared image is 256×256 pixels.
+
+[_**MSISTD**_](https://github.com/Crescent-Ao/MSISTD)
+
+The MSISTD dataset, which was publicly released in 2022, is a multiscene and single-frame infrared small target dataset. It contains 1,077 images and 1,343 instances, which are 2.4 times and 2.5 times more than those contained in the largest existing real-world SIRST benchmarks, respectively. This dataset extends the scale of the original SIRST dataset from 427 to 1077 with high-quality annotations, which effectively solves the lack of quantity and diversity in infrared small target detection datasets.
+
