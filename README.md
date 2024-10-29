@@ -28,35 +28,27 @@ The MSISTD dataset, which was publicly released in 2022, is a multiscene and sin
 <img src="https://github.com/user-attachments/assets/fca148f6-17c5-4bbf-bb4a-f4d8b2b0fad0" width="19.5%"/>
 <img src="https://github.com/user-attachments/assets/aa2c6eab-4a3a-4bfb-9124-1c9472be72a0" width="19.5%"/>
 
-## Compared Methods
+## 4. Compared Methods
 _**Single-frame methods**_
 
-PSTNN [[Paper]](https://www.mdpi.com/2072-4292/11/4/382) [[Code]](https://github.com/Lanneeee/Infrared-Small-Target-Detection-based-on-PSTNN) 
-
-WSLCM [[Paper]](https://ieeexplore.ieee.org/abstract/document/9130832) [[Code]](https://github.com/moradisaed/WSLCM) 
-
-NTFRA [[Paper]](https://ieeexplore.ieee.org/abstract/document/9394596) [[Code]](https://github.com/Electromagnetism-dog-technology/Infrared-Small-Target-Detection-via-Nonconvex-Tensor-Fibered-Rank-Approximation) 
+PSTNN [[Paper]](https://www.mdpi.com/2072-4292/11/4/382) [[Code]](https://github.com/Lanneeee/Infrared-Small-Target-Detection-based-on-PSTNN) WSLCM [[Paper]](https://ieeexplore.ieee.org/abstract/document/9130832) [[Code]](https://github.com/moradisaed/WSLCM) NTFRA [[Paper]](https://ieeexplore.ieee.org/abstract/document/9394596) [[Code]](https://github.com/Electromagnetism-dog-technology/Infrared-Small-Target-Detection-via-Nonconvex-Tensor-Fibered-Rank-Approximation) 
 
 _**Multiframe methods**_
 
-ECASTT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9279305) [[Code]](https://github.com/ELOESZHANG/ECA-STT-for-IR-small-target-detection) 
-
-MSLSTIPT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9203993) [[Code]](https://github.com/yangsunNUDT/MSLSTIPT-V2) 
-
-ASTTV-NTLA [[Paper]](https://ieeexplore.ieee.org/abstract/document/9626011) [[Code]](https://github.com/LiuTing20a/ASTTV-NTLA) 
-
-IMNN-LWEC [[Paper]](https://ieeexplore.ieee.org/abstract/document/9991168) [[Code]](https://github.com/Andro-svg/IMNN-LWEC) 
-
-MFSTPT [[Paper]](https://www.mdpi.com/2072-4292/14/9/2234) [[Code]](https://github.com/myp1229896165/MFSTPT) 
+ECASTT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9279305) [[Code]](https://github.com/ELOESZHANG/ECA-STT-for-IR-small-target-detection) MSLSTIPT [[Paper]](https://ieeexplore.ieee.org/abstract/document/9203993) [[Code]](https://github.com/yangsunNUDT/MSLSTIPT-V2) ASTTV-NTLA [[Paper]](https://ieeexplore.ieee.org/abstract/document/9626011) [[Code]](https://github.com/LiuTing20a/ASTTV-NTLA) IMNN-LWEC [[Paper]](https://ieeexplore.ieee.org/abstract/document/9991168) [[Code]](https://github.com/Andro-svg/IMNN-LWEC) MFSTPT [[Paper]](https://www.mdpi.com/2072-4292/14/9/2234) [[Code]](https://github.com/myp1229896165/MFSTPT) 
 
 
 _**Deep learning methods**_
 
-UIU-Net [[Paper]](https://ieeexplore.ieee.org/document/9989433) [[Code]](https://github.com/danfenghong/IEEE_TIP_UIU-Net) 
+UIU-Net [[Paper]](https://ieeexplore.ieee.org/document/9989433) [[Code]](https://github.com/danfenghong/IEEE_TIP_UIU-Net) DNA-Net [[Paper]](https://ieeexplore.ieee.org/abstract/document/9864119) [[Code]](https://github.com/YeRen123455/Infrared-Small-Target-Detection) 
 
-DNA-Net [[Paper]](https://ieeexplore.ieee.org/abstract/document/9864119) [[Code]](https://github.com/YeRen123455/Infrared-Small-Target-Detection) 
+## 5. Run the code
 
+Get started run main.m
 
+## 6. Connections
+
+<a href="liupei3698@163.com">liupei3698@163.com</a> 
 
 
 
