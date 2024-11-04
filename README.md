@@ -1,5 +1,5 @@
 # **TCTV: Infrared Small Target Detection via Joint Low Rankness and Local Smoothness Prior**  
-Pei Liu, [Jiangjun Peng](https://scholar.google.com.hk/citations?user=3crYjMoAAAAJ&hl=zh-CN), [Hailin Wang](https://scholar.google.com.hk/citations?user=FdYTyjgAAAAJ&hl=zh-CN), [Danfeng Hong](https://scholar.google.com/citations?user=n7gL0_IAAAAJ&hl=en), [Xiangyong Cao](https://scholar.google.com.hk/citations?user=IePM9RsAAAAJ&hl=en)
+Pei Liu, Jiangjun Peng, Hailin Wang, Danfeng Hong, Xiangyong Cao
 
 <hr />
 
